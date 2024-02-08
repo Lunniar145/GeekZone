@@ -7,18 +7,16 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-div.container.shop {
+.container.shop {
+  position: absolute;
+  bottom: 0;
   width: 100%;
 }
 
 .shop {
+  position: relative;
   width: 190px;
   height: 165px;
   padding: 0px 20px 0px 20px;
   border-radius: 35px;
-}
-
-body {
-  scrollbar-width: thin; /* "auto" or "thin" */
-  scrollbar-color: blue orange; /* scroll thumb and track */
 }
