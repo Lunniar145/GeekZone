@@ -1,18 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: rgb(77, 75, 75);
 }
 
 .shop {
   position: relative;
-  height: 120px;
-  width: 120px;
-  border-radius: 25px;
-  padding: 3px;
+  display: block;
+  height: 250px;
+  width: 250px;
+  border-radius: 35px;
+  padding: 0px 20px 0px 20px;
+  opacity: 1;
+  transition: 0.5s ease;
 }
 
 .containershop {
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  top: 550px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .searchbar {
@@ -28,6 +37,36 @@ body {
   top: 115px;
 }
 
+.searchButton {
+  background-color: yellow;
+  box-shadow: none;
+  border-color: transparent;
+}
+
 .shop:hover {
-  border-radius: 35px;
+  opacity: 0.3;
+}
+
+.containerProduct {
+  position: relative;
+  bottom: 150px;
+}
+
+.boxwhite {
+  position: relative;
+  display: flex;
+  object-fit: cover;
+  background-color: white;
+  width: 80px;
+  height: 10em;
+}
+
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  text-align: center;
 }
