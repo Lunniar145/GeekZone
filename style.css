@@ -11,19 +11,23 @@ body {
 }
 
 .containershop {
-  position: relative;
-  top: 650px;
+  position: absolute;
+  bottom: 0;
 }
 
 .searchbar {
   position: relative;
+  display: flex;
   border-radius: 12px;
   width: 650px;
+  height: 30px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
   border-color: transparent;
+  margin: auto;
+  top: 115px;
 }
 
 .shop:hover {
-  border-radius: 100px;
+  border-radius: 35px;
 }
