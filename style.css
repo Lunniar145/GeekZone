@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(77, 75, 75);
+}
+
+.boutique{
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+}
