@@ -12,8 +12,13 @@ div.container.shop {
 }
 
 .shop {
-  height: 180px;
   width: 190px;
+  height: 165px;
   padding: 0px 20px 0px 20px;
   border-radius: 35px;
+}
+
+body {
+  scrollbar-width: thin; /* "auto" or "thin" */
+  scrollbar-color: blue orange; /* scroll thumb and track */
 }
