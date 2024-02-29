@@ -61,8 +61,9 @@ body {
   height: 10em;
 }
 
-div.scrollmenu::-webkit-scrollbar {
-  width: 12px;
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
 }
 
 div.scrollmenu a {
