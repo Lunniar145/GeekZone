@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background {
+  @apply bg-gray-800;
+}
+
+.background-background {
+  @apply flex rounded-xl bg-gray-700;
+}
+
+.img-shop {
+  @apply m-10 rounded-3xl shadow-xl;
+}
+.shop-info {
+  @apply mt-10 max-h-full font-bold text-white;
+}
+
+.product-img {
+  @apply p-10;
+}
+
+.shearch-bar {
+  @apply p-5;
+  @apply min-h-full w-full;
+  @apply flex items-center;
+  @apply justify-center;
+}
+
+.shearch-bar-text {
+  @apply w-full max-w-96;
+}
