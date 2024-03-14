@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background {
+  @apply bg-gray-800;
+}
+
+.background-background {
+  @apply rounded-xl bg-gray-700 flex;
+}
+
+.img-shop {
+  @apply m-10 rounded-3xl shadow-xl;
+}
+.shop-info {
+  @apply mt-10 max-h-full font-bold text-white;
+}
+
+.product-img {
+  @apply p-10;
+}
+
+.shearch-container {
+  @apply rounded-lg px-32 pt-10;
+}
+
+.shearch-form {
+  @apply flex m-10 bg-white rounded-full;
+}
+
+.shearch-bar {
+  @apply bg-gray-700 py-20 px-10 rounded-xl;
+}
+
+.shearch-input {
+  @apply placeholder-gray-400 p-5;
+  @apply w-5;
+  @apply rounded-full w-full;
+}
+
+.shearch-button {
+  @apply w-20 rounded-full;
+}
