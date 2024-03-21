@@ -13,6 +13,7 @@
 .img-shop {
   @apply m-10 rounded-3xl shadow-xl;
 }
+
 .shop-info {
   @apply mt-10 max-h-full font-bold text-white;
 }
