@@ -544,6 +544,8 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+/* Fond */
+
 .background {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
@@ -555,6 +557,8 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
+
+/* Magasin */
 
 .img-shop {
   margin: 2.5rem;
@@ -572,9 +576,25 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.product-img {
-  padding: 2.5rem;
+/* Produits */
+
+.img-product {
+  margin: 2.5rem;
+  border-radius: 1.5rem;
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+
+.product-info {
+  margin-top: 2.5rem;
+  max-height: 100%;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+/* Barre de Recherche */
 
 .shearch-container {
   border-radius: 0.5rem;

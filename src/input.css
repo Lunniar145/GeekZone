@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Fond */
+
 .background {
   @apply bg-gray-800;
 }
@@ -9,6 +11,8 @@
 .background-background {
   @apply rounded-xl bg-gray-700 flex;
 }
+
+/* Magasin */
 
 .img-shop {
   @apply m-10 rounded-3xl shadow-xl;
@@ -18,9 +22,16 @@
   @apply mt-10 max-h-full font-bold text-white;
 }
 
-.product-img {
-  @apply p-10;
+/* Produits */
+.img-product {
+  @apply m-10 rounded-3xl shadow-xl;
 }
+
+.product-info {
+  @apply mt-10 max-h-full font-bold text-white;
+}
+
+/* Barre de Recherche */
 
 .shearch-container {
   @apply rounded-lg px-32 pt-10;
