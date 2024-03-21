@@ -22,13 +22,22 @@
   @apply mt-10 max-h-full font-bold text-white;
 }
 
-/* Produits */
+/* Page Produits  */
 .img-product {
   @apply m-10 rounded-3xl shadow-xl;
 }
 
 .product-info {
   @apply mt-10 max-h-full font-bold text-white;
+}
+
+/* Produit Page d'accueil */
+.shop-container {
+  @apply flex;
+}
+
+.best-img-container {
+  @apply flex;
 }
 
 /* Barre de Recherche */
@@ -46,9 +55,13 @@
 }
 
 .shearch-input {
-  @apply placeholder-gray-400 p-5;
-  @apply w-5;
+  @apply placeholder-gray-400 p-5 text-9xl;
+  @apply w-5 text-xl;
   @apply rounded-full w-full;
+}
+
+.shearch-input:focus {
+  @apply outline-none;
 }
 
 .shearch-button {
