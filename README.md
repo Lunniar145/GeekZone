@@ -15,7 +15,7 @@
 ✔️ Fonctionnalité 3 : *Description rapide*  
 ✔️ Fonctionnalité 4 : *Description rapide*  
 
-📌 **[Démo en ligne]([https://exemple.com](https://dash.hopleisure.com/Dashboard))**  
+📌 **[Démo en ligne]([https://dash.hopleisure.com/Dashboard])**  
 
 ---
 
